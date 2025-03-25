@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Break Reminder</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="popup.js"></script>
+</head>
+<body>
+    <h1 id="loading">Loading...</h1>
+
+    <h2 id="title" style="display: none;">Set Break Time</h2>
+    <input type="number" id="breakTime" min="0.5" max="60" 
+        placeholder="Minutes" style="display: none;"
+    >
+    <button id="setBreak" style="display: none;">Set Break</button>
+
+    <h3 id="currentBreakTime"></h3>
+    <button id="reset" style="display: none;">Reset</button>
+</body>
+</html>
